@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--amber-1);
+    font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+        "Cantarell", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+
+.app {
+    max-width: 42rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+    .app {
+        padding-top: 2rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .profile__x {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .profile__div {
+        flex-shrink: 0;
+    }
+
+    .profile__grow {
+        flex-grow: 1;
+    }
+}
+
+.profile__gap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile__div {
+    width: 256px;
+    height: 256px;
+    margin-top: 39px;
+    margin-bottom: 28px;
+}
+
+.profile__title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.profile__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .main {
+        gap: 2rem;
+    }
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.main__title {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+    .main__title {
+        font-size: 1.25rem;
+    }
+}
+
+
+.main__ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.main__link {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.main__link:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        gap: 2rem;
+    }
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer__form {
+    padding: 24px;
+    border-radius: 38px;
+}
+
+
+.footer__form input,
+.footer__form textarea {
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 9.5px;
+    padding: 5px;
+}
+
+.footer__button {
+    border-radius: 9.5px;
+    padding: 14px 19px;
+    border: none;
+}
+
+
+
+*
+
+/* ===========================================================*
+   *Section : Backgrounds*
+   *=========================================================== */
+* .app--bg {
+    background-color: var(--amber-1);
+}
+
+.bg--subtle {
+    background-color: var(--amber-2);
+}
+
+.bg--ui {
+    background-color: var(--amber-3);
+}
+
+.bg--ui-hover:hover {
+    background-color: var(--amber-4);
+}
+
+.bg--ui-active {
+    background-color: var(--amber-5);
+}
+
+.bg--solid {
+    background-color: var(--amber-9);
+}
+
+.bg--solid-hover:hover {
+    background-color: var(--amber-10);
+}
+
+
+*
+
+/* ===========================================================*
+     *Section : Borders*
+     *=========================================================== */
+* .border--subtle {
+    border-color: var(--amber-6);
+}
+
+.border--ui {
+    border-color: var(--amber-7);
+    outline-color: var(--amber-7);
+}
+
+.border--ui-hover:hover {
+    border-color: var(--amber-8);
+}
+
+
+*
+
+/* ===========================================================*
+     *Section : Text*
+     *=========================================================== */
+* .text--low {
+    color: var(--amber-11);
+}
+
+.text--high {
+    color: var(--amber-12);
+}

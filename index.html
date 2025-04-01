@@ -1,0 +1,107 @@
+<html lang="fr" class="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My portfolio by Sylvan" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/amber.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="app app--bg">
+        <header class="profile">
+            <h1 class="profile__title text--hight">Sylvan Rufin</h1>
+            <div class="profile__x">
+                <div class="profile__div">
+                    <img class="profile__img" src="./assets/images/profile.jpg" alt="photo de Sylvan" />
+                </div>
+                <p class="profile__grow text text--low">
+                    En reconversion vers le web avec Epitech, animé par ma passion et ma
+                    curiosité pour les nouvelles technologies, je suis prêt à m'investir
+                    pleinement en alternance.
+                </p>
+            </div>
+            <p class="profile__gap text text--low">J’ai découvert le monde du code avec HTML, CSS et PHP. Depuis, je
+                continue
+                d’explorer et d’apprendre de nouveaux langages, comme JavaScript et son framework React, qui a été une
+                belle
+                surprise grâce à son approche basée sur les composants.<br>
+                <span>En réalisant plusieurs projets, j’ai découvert que mon côté créatif me poussait
+                    naturellement vers le front-end,
+                    bien que j’apprécie aussi le back-end !</span>
+            </p>
+        </header>
+
+        <main class="main">
+
+            <div class="main__container">
+
+                <h2 class="main__title text text--hight">Projets</h2>
+                <ul class="main__ul">
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">GitHub</a>
+                        - Réseau social inspiré de Twitter (PHP, MySQL, Tailwind)
+                    </li>
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">GitHub</a>
+                        - Éditeur WYSIWYG en module JS (JavaScript, HTML, CSS)
+                    </li>
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">GitHub</a>
+                        - Plateforme musicale inspirée de Spotify (React, Docker,
+                        Tailwind)
+
+                    </li>
+                </ul>
+            </div>
+            <div class="main__container">
+                <h2 class="main__title text text--high">Expérience</h2>
+                <ul class="main__ul">
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">Web@cadémie
+                            {EPITECH.}</a>
+                        - Titre RNCP niveau 5 | Développeur Web (2024-2026)
+                    </li>
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">Policier
+                            Adjoint</a>
+                        - Titre RNCP niveau 3 | Police aux Frontières, Coquelles (2019-2024)
+                    </li>
+                    <li class="text text--low">
+                        <a href="https://github.com/" class="text text--high main__link" target="_blank">Cadet de la
+                            République</a>
+                        - École de Police Nationale | Commissariats de Police (2018)
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <form class="footer__form bg bg--ui" action="mailto:sylvan.rufin@epitech.eu" method="post"
+                enctype="text/plain">
+                <input type="text" id="name" name="name" required class="bg bg--subtle" placeholder="Nom">
+                <input type="email" id="email" name="email" required class="bg bg--subtle" placeholder="Email">
+                <textarea id="message" name="message" rows="4" required class="bg bg--subtle"
+                    placeholder="Message"></textarea>
+                <button type="submit" class="footer__button bg bg--solid bg--solid-hover">Me
+                    contacter</button>
+            </form>
+
+            <a class="text text--high footer__link" href="http://www.linkedin.com/in/sylvan-rufin" target="_blank">
+                LinkedIn
+            </a>
+            <a class="text text--high footer__link" href="https://www.github.com/Sylvantech" target="_blank">
+                GitHub
+            </a>
+            <a class="text text--high footer__link" href="./assets/pdf/SYLVAN RUFIN.pdf" download="SYLVAN RUFIN.pdf">
+                Télécharger mon CV
+            </a>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
